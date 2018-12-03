@@ -1,6 +1,8 @@
-y <- c(10,34,2)
+y <- sample(c(seq(from=1, to=100)), sample(1:10, 1, replace=FALSE)) 
 
-length(y)
+laengey <- length(y)
+
+x <- sample(c(seq(from=1, to=laengey)), sample(1:10, 1, replace=FALSE))
 
 x <- c(5,3,2)
 
