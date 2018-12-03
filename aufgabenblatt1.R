@@ -4,8 +4,6 @@ laengey <- length(y)
 
 x <- sample(c(seq(from=1, to=laengey)), sample(1:10, 1, replace=FALSE))
 
-x <- c(5,3,2)
-
 x*y
 
 n <- length(x) + length(y) 
